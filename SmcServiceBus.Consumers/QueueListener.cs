@@ -1,9 +1,7 @@
-﻿using Azure.Core;
-using Azure.Messaging.ServiceBus;
+﻿using Azure.Messaging.ServiceBus;
 using Microsoft.Extensions.Hosting;
-using SmcServiceBus.Publisher;
 
-namespace SmcServiceBus.Consumer1;
+namespace SmcServiceBus.Consumers;
 
 public class QueueListener : BackgroundService
 {

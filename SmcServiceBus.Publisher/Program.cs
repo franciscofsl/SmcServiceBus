@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Azure.Messaging.ServiceBus;
-using SmcServiceBus.Publisher;
+using SmcServiceBus.Consumers;
 
 Console.WriteLine("Sending Grreetings");
 

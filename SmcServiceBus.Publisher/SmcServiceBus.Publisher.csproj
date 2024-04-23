@@ -11,4 +11,8 @@
       <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.5" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SmcServiceBus.Consumers\SmcServiceBus.Consumers.csproj" />
+    </ItemGroup>
+
 </Project>
